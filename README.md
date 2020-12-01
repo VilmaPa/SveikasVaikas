@@ -7,7 +7,7 @@
 
 This project is ...
 
-Site published at ...
+Site published at https://vilmapa.github.io/SveikasVaikas/
 
 ## Project features
 - repetitive content is generated/rendered;
