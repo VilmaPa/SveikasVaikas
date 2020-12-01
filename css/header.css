@@ -1,8 +1,20 @@
 header.container-fluid {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right:0;
+    z-index: 1;
     display: inline-block;
-    background-color: #3366ff;
+    background-color: #0d76a7;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+header.container-fluid.scroll {
+    display: inline-block;
+    background-color: #033668;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
     header img {
@@ -26,6 +38,7 @@ header.container-fluid {
             margin-top: 25px;
             padding-bottom: 10px;
             text-transform: uppercase;
+            text-decoration: none;
             border-bottom: 1px solid transparent;
         }
 
