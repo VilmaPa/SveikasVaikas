@@ -1,0 +1,34 @@
+header.container-fluid {
+    display: inline-block;
+    background-color: #3366ff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    header img {
+        display: inline-block;
+        float: left;
+        margin-left: 15px;
+        border: 1px solid black;
+        border-radius: 50%;
+        height: 80px;
+    }
+
+    header nav {
+        display: inline-block;
+        float: right;
+    }
+        header nav > a {
+            display: inline-block;
+            float: left;
+            color: #fff;
+            margin: 25px 20px 20px 0px;
+            margin-top: 25px;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+            border-bottom: 1px solid transparent;
+        }
+
+        header nav > a:hover {
+           border-bottom-color: #fff;
+        }
