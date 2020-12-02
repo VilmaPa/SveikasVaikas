@@ -33,7 +33,7 @@ header.container-fluid.scroll {
         header nav > a {
             display: inline-block;
             float: left;
-            color: #fff;
+            color:  #05fff2;
             margin: 25px 20px 20px 0px;
             margin-top: 25px;
             padding-bottom: 10px;
@@ -44,4 +44,4 @@ header.container-fluid.scroll {
 
         header nav > a:hover {
            border-bottom-color: #fff;
-        }
+        } 

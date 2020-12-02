@@ -1,4 +1,6 @@
 .hero {
+    display: flex;
+    position: relative;
     height: 100vh;
     margin-top: 100px;
     background-color: #487499;
@@ -10,6 +12,65 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center;
+    text-align: center;
 } 
+.hero > .row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hero-title {
+    margin-top: 120px;
+    font-size: 80px;
+    font-weight: 500;
+    color: #00eeff;
+   
+}
+
+.hero-p {
+    position:relative;
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 100;
+    color: #00eeff 
+}
+
+.btn {
+    position:absolute;
+    top: 5%;
+    left: 80%;
+    transform: translate (-50%, -50%);
+    width: 150px;
+    background-color: #ec665c;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(238, 238, 238);
+    border-radius: 30px;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    margin-top: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 1px 1px 15px 1px #13131344;
+    border: 1px solid  #f34236;
+    
+}
+
+
+.btn:hover {
+    box-shadow: 3px 10px 15px 3px #d62c2c46;
+    background-color: rgb(58, 37, 37);
+    color: rgb(238, 238, 238);
+    transition-duration: 0.9s;
+    border: 1px solid  rgb(27, 27, 27);
+
+}
+
 
     
